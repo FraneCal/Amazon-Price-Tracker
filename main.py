@@ -7,8 +7,8 @@ url = "https://www.amazon.com/dp/B09W28YNHJ/ref=syn_sd_onsite_desktop_0?ie=UTF8&
 
 header = {
     # You can find the the header info on this site: https://myhttpheader.com/
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-    "Accept-Language": "hr-HR,hr;q=0.9,en-US;q=0.8,en;q=0.7"
+    "User-Agent": "...",
+    "Accept-Language": "..."
 }
 
 response = requests.get(url, headers=header)
